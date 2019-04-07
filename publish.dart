@@ -25,7 +25,7 @@ void main() async {
     version = stdin.readLineSync();
   });
   for (var dir in packageFolders) {
-    var pubspec = File(dir + "/pubspec.yaml");
+    var pubspec = File(dir + "/pubspec_base.yaml");
     await step("Updating version in '${pubspec.path}'", () async {
       var contents = await pubspec.readAsString();
       contents = contents.replaceFirst(
