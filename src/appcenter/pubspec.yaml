@@ -1,4 +1,4 @@
-name: appcenter
+name: appcenter_base
 description: Visual Studio App Center plugin for Flutter applications.
 version: 0.2.1
 authors: 
